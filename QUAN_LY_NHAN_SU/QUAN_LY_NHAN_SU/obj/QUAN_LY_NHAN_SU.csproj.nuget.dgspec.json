@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU.csproj": {}
+  },
+  "projects": {
+    "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\DATA\\DATA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\DATA\\DATA.csproj",
+        "projectName": "DATA",
+        "projectPath": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\DATA\\DATA.csproj",
+        "packagesPath": "C:\\Users\\Van Canh\\.nuget\\packages\\",
+        "outputPath": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\DATA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Van Canh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU.csproj",
+        "projectName": "QUAN_LY_NHAN_SU",
+        "projectPath": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU.csproj",
+        "packagesPath": "C:\\Users\\Van Canh\\.nuget\\packages\\",
+        "outputPath": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Van Canh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\DATA\\DATA.csproj": {
+                "projectPath": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\DATA\\DATA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "b0emp4/58wZ02cpftbtJr18LHo2Gl4P/X8OYaFQMDQc=",
+  "Source": "API_QUAN_LY_NHAN_SU",
+  "BasePath": "_content/API_QUAN_LY_NHAN_SU",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\QUAN_LY_NHAN_SU\\QUAN_LY_NHAN_SU\\DATA\\DATA.csproj",
+      "Version": 2,
+      "Source": "DATA",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

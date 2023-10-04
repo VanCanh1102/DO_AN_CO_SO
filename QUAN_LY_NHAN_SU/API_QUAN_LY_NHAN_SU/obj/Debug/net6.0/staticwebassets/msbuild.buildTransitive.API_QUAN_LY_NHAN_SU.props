@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\API_QUAN_LY_NHAN_SU.props" />
+</Project>
