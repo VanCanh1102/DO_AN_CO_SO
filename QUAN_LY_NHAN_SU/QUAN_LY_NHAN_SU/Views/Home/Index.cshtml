@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "QUẢN LÝ NHÂN SỰ";
 }
+
 <div class="section">
     <div class="container">
         <div class="row full-height justify-content-center">
@@ -24,7 +25,7 @@
                                                    placeholder="Password" />
                                             <i class="input-icon uil uil-lock-alt"></i>
                                         </div>
-                                        <a href="#" class="btn mt-4">Login</a>
+                                        <button id="loginButton" class="btn mt-4">Login</button>
                                         <p class="mb-0 mt-4 text-center">
                                             <a href="#" class="link">Forgot your password?</a>
                                         </p>
@@ -38,3 +39,25 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        function navigateToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+        document.getElementById("loginButton").addEventListener("click", function () {
+            // Lưu các giá trị đăng nhập vào biến email và password
+            var email = document.querySelector("input[type='email']").value;
+            var password = document.querySelector("input[type='password']").value;
+
+            // Kiểm tra email và password
+            if (email === "admin" && password === "admin") {
+                // Nếu đăng nhập thành công, chuyển hướng đến trang add_employee.cshtml
+                navigateToPage("./Home/Page/add_employee.cshtml");
+            } else {
+                // Nếu đăng nhập không thành công, thông báo lỗi
+                alert("Email hoặc mật khẩu không chính xác!");
+            }
+        });
+    </script>
+}
